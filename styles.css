@@ -853,7 +853,7 @@ section {
 
 .achievements-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -862,8 +862,6 @@ section {
     border-radius: 15px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
-    padding-bottom: 1.5rem;
 }
 
 .achievement-card:hover {
@@ -873,10 +871,9 @@ section {
 
 .achievement-card img {
     width: 100%;
-    height: 200px; /* Fixed height for images */
-    object-fit: cover; /* Cover the area, cropping if necessary */
-    border-bottom: 4px solid #00a8ff;
-    margin-bottom: 1.5rem;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .achievement-content {
