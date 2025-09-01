@@ -1,6 +1,6 @@
 # Refat Ahmed - Personal Portfolio Website
 
-A modern, responsive personal portfolio website showcasing AI research experience, publications, projects, and achievements. Built with HTML5, CSS3, and JavaScript.
+My personal portfolio website showcasing my research experience, publications, projects, and achievements. Built with HTML5, CSS3, and JavaScript.
 
 
 
